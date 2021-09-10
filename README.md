@@ -27,7 +27,7 @@
 - Extract the files to a folder.
 
 > Step 3
-- Right click, and open `parts/veritifation.php` with your text editor.
+- Right click, and open `index.html` with your text editor.
 
 > Step 4
 - Read the instructions.txt - And find "YOUR CONTENT LOCKER URL" on the code.
