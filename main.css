@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600');
+
+body {
+    background: url(bg.jpg) center/cover no-repeat fixed;
+    font-family: 'Titillium Web', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.modal-header {
+    justify-content: center !important;
+}
+
+.logo {
+    max-height: 17.5vh;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+ol {
+    text-align: left !important;
+}
+
+.modal-body {
+    text-align: center !important;
+    font-size: 1.1rem;
+}
+
+hr { border-color: rgba(255,255,255,0.5) !important; }
+
+.hack {
+    /*background: #000000;
+    background: -webkit-linear-gradient(to bottom, #313131, #000000);
+    background: linear-gradient(to bottom, #313131, #000000);*/
+    background-color: rgba(0,0,0,0.75);
+    color: #ffffff;
+    border-radius: 0.5rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+h1, h2, h3, h6, button {
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.hack-header h4, .hack-header h5, p, .recent-header {
+    font-weight: 400 !important;
+}
+
+.hack-header h4 strong, .hack-header h5 strong, p strong, .recent-header strong {
+    font-weight: 600 !important;
+}
+
+.status-header {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+    text-transform: none !important;
+    background-color: #fff;
+    color: #313131 !important;
+    margin: 0 -14px 0.5rem -15px !important;
+    border-bottom: 2px solid #313131;
+    border-left: 2px solid rgba(67, 67, 67, 0.5);
+    border-right: 2px solid rgba(67, 67, 67, 0.5);
+}
+
+.w-60 { width: 60% !important; }
+
+.w-80 { width: 80% !important; }
+
+.w-60-d-80-m {
+    width: 80% !important;
+}
+
+.hack-header {
+    margin: 0 -14px 0 -15px !important;
+    padding-top: 0.25rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-left: 2px solid rgba(67, 67, 67, 0.5);
+    border-top: 2px solid rgba(67, 67, 67, 0.5);
+    border-right: 2px solid rgba(67, 67, 67, 0.5);
+    border-bottom: 1px solid rgba(67, 67, 67, 0.5);
+    background-color: rgba(0,0,0,0.5);
+    color: #313131;
+    text-transform: none !important;
+}
+
+.hack-generator {
+    font-size: 1.3rem !important;
+    color: #fff;
+    text-transform: none !important;
+    font-weight: 600 !important;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+.recent-header {
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    text-transform: none !important;
+    font-size: 1.25rem !important;
+}
+
+.recent {
+    background-color: #ffffff;
+    color: #313131;
+    opacity: 0.9;
+    border-radius: 0.5rem;
+    border: 2px solid rgba(67, 67, 67, 0.75);
+    display: none;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    margin-top: -0.5rem !important;
+}
+
+.form-control {
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+
+.r1r1, .r2r2 {
+    text-transform: none !important;
+    font-size: 1.4rem !important;
+    font-weight: 400 !important;
+}
+
+.f-username {
+    font-weight: 400 !important;
+}
+
+.wybrane {
+    text-transform: none !important;
+}
+
+flick {
+    font-size: 1.15rem !important;
+    font-weight: 600;
+    margin-top: -0.25rem;
+    text-transform: none !important;
+}
+
+p {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+    font-size: 1.25rem;
+}
+
+.form-control {
+    font-size: 1.2rem !important;
+}
+
+.end, .ehh, .h-v {
+    display: none;
+}
+
+.fab, .fas {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.f-username {
+    font-size: 1.5rem !important;
+    /*margin-top: -2.5rem !important;*/
+    text-transform: none !important;
+}
+
+.sshquiet {
+    margin-top: -2.4rem !important;
+}
+
+#username {
+    font-size: 1.75rem !important;
+}
+
+.i-resource-1 {
+    background-image: url(rr.png);
+}
+
+.i-resource-1, .i-resource-2 {
+    font-size: 1.75rem !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    background-color: #313131 !important;
+    border: 0;
+    color: white !important;
+    text-align: left !important;
+    padding-left: 4rem !important;
+}
+
+.final-img {
+    max-width: 75%;
+}
+
+.p-m {
+    cursor: pointer;
+    border: 0;
+    color: #000 !important;
+    background-color: #fff !important;
+    font-weight: 600 !important;
+    font-size: 1.8rem !important;
+    padding: 0 1rem !important;
+}
+
+h3 {
+    font-size: 1.4rem !important;
+}
+
+.btn-c {
+    font-weight: 600 !important;
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+}
+
+.status-img {
+    margin-bottom: 2px;
+    max-height: 22px;
+}
+
+red {
+    font-size: 1.4rem !important;
+    color: red !important;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+.btn-l {
+    margin-bottom: 0.5rem !important;
+}
+
+@media (min-width: 576px) {
+
+    .w-60-d-80-m {
+        width: 73% !important;
+    }
+
+    h4 {
+        font-size: 1.65rem !important;
+    }
+    .status-header {
+        font-size: 1.25rem !important;
+    }
+    .recent-header {
+        font-size: 1.35rem !important;
+    }
+    p {
+        font-size: 1.3rem !important;
+    }
+    .btn-c {
+        font-size: 1.75rem !important;
+    }
+    #username {
+        font-size: 1.15rem !important;
+    }
+    .f-username {
+        font-size: 1.9rem !important;
+    }
+    .hack-generator {
+        font-size: 1.4rem !important;
+    }
+    .final-img {
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px) {
+
+    .w-60-d-80-m {
+        width: 67% !important;
+    }
+
+    .btn-c {
+        margin-bottom: 0.5rem;
+        font-size: 1.85rem !important;
+    }
+    h4 {
+        font-size: 1.8rem !important;
+    }
+    .status-header {
+        font-size: 1.35rem !important;
+    }
+    .recent-header {
+        font-size: 1.45rem !important;
+    }
+    #username {
+        font-size: 1.3rem !important;
+    }
+    p {
+        font-size: 1.35rem !important;
+    }
+    .hack-generator {
+        font-size: 1.5rem !important;
+        border: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .w-60-d-80-m {
+        width: 60% !important;
+    }
+}

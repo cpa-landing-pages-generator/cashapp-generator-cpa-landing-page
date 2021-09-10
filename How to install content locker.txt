@@ -1,0 +1,29 @@
+Edit Index.html
+Go to the line 124
+Replace your locker URL where it says > REPLACE YOUR CONTENT LOCKER URL HERE
+
+
+You can also do this,
+Press Control + F to search
+paste this > REPLACE YOUR CONTENT LOCKER URL HERE
+
+You will find where to paste your locker URL
+
+
+Example:
+
+href="REPLACE YOUR CONTENT LOCKER URL HERE"
+
+
+should look like this
+
+
+href="https://verifyzone.com/locker12123312"
+
+   _____ _____        _                     _ _                                  
+  / ____|  __ \ /\   | |                   | (_)                                 
+ | |    | |__) /  \  | |     __ _ _ __   __| |_ _ __   __ _   ___ ___  _ __ ___  
+ | |    |  ___/ /\ \ | |    / _` | '_ \ / _` | | '_ \ / _` | / __/ _ \| '_ ` _ \ 
+ | |____| |  / ____ \| |___| (_| | | | | (_| | | | | | (_| || (_| (_) | | | | | |
+  \_____|_| /_/    \_\______\__,_|_| |_|\__,_|_|_| |_|\__, (_)___\___/|_| |_| |_|
+                                                       __/ |                     
